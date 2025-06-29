@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Buy online cake in Nepal" />
     <title>Home | Page</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" />
 </head>
 <body id="page-top">
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainnav">
         <div class="container">
             <a class="navbar-brand" href="#page-top">
-                <img src="../images/img/navbar-logo.svg" alt="" height="30" />
+                <img src="../images/img/navbar-logo.svg" alt="Haze Logo" height="30" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,9 +25,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Term</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 </ul>
@@ -34,6 +35,7 @@
         </div>
     </nav>
 
+    <!-- Banner -->
     <header class="banner">
         <div class="container text-center">
             <div class="banner-subheading">Welcome to Haze</div>
@@ -42,6 +44,7 @@
         </div>
     </header>
 
+    <!-- Services -->
     <section class="page-section" id="services">
         <div class="container">
             <div class="text-center">
@@ -52,7 +55,7 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-warning"></i>
-                        <i class="fas fa-shopping-cart fa-stack-1x text-inverse"></i>
+                        <i class="fas fa-shopping-cart fa-stack-1x text-white"></i>
                     </span>
                     <h4 class="my-3">Shopping</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut magni illum quae ipsam perferendis nobis?</p>
@@ -60,7 +63,7 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-warning"></i>
-                        <i class="fas fa-laptop fa-stack-1x text-inverse"></i>
+                        <i class="fas fa-laptop fa-stack-1x text-white"></i>
                     </span>
                     <h4 class="my-3">Responsive Design</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut magni illum quae ipsam perferendis nobis?</p>
@@ -68,7 +71,7 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-warning"></i>
-                        <i class="fas fa-lock fa-stack-1x text-inverse"></i>
+                        <i class="fas fa-lock fa-stack-1x text-white"></i>
                     </span>
                     <h4 class="my-3">Secure</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut magni illum quae ipsam perferendis nobis?</p>
@@ -77,6 +80,184 @@
         </div>
     </section>
 
-    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Portfolio -->
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet.</h3>
+            </div>
+            <div class="row">
+                <!-- Portfolio Items -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="../images/img/portfolio/1.jpg" alt="Portfolio item 1">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Threads</div>
+                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="../images/img/portfolio/2.jpg" alt="Portfolio item 2">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Explore</div>
+                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="../images/img/portfolio/3.jpg" alt="Portfolio item 3">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Finish</div>
+                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="../images/img/portfolio/4.jpg" alt="Portfolio item 4">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Lines</div>
+                            <div class="portfolio-caption-subheading text-muted">Branding</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="../images/img/portfolio/5.jpg" alt="Portfolio item 5">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Southwest</div>
+                            <div class="portfolio-caption-subheading text-muted">Web Design</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="../images/img/portfolio/6.jpg" alt="Portfolio item 6">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Window</div>
+                            <div class="portfolio-caption-subheading text-muted">Photography</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">About</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet.</h3>
+            </div>
+
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="../images/img/about/1.jpg" alt="About Step 1">
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2021-2025</h4>
+                            <h4 class="subheading">Start Business</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="../images/img/about/2.jpg" alt="About Step 2">
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2020-2025</h4>
+                            <h4 class="subheading">Start Study</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="../images/img/about/3.jpg" alt="About Step 3">
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2021-2025</h4>
+                            <h4 class="subheading">Start Business</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="../images/img/about/4.jpg" alt="About Step 4">
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2020-2025</h4>
+                            <h4 class="subheading">Start Study</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="timeline-inverted">
+                    <div class="timeline-image d-flex align-items-center justify-content-center">
+                        <h4>Be Part of our Story</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 </html>
